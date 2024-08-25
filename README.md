@@ -42,6 +42,12 @@ options:
 ## Issues
 You can report an issue if you find one. I was also thinking about adding a rule repair tool that someone else wrote to make the program more dependable. However I have yet to do so because I need to find out how the matching meta changes after a rule repair. For now I've been doing this by myself. But it would be nice to have help and refactor this to include people ☺
 
+## Todo
+- rename the tool to its proper name
+- make a package for the tool
+- make the package available
+- make the tool run with a shebang header for Linux and possibly Windows and MacOS
+
 ## Notes
 - This program has not implemented the following features yet. If you would like to contribute, open a pull request.
   - Multi-threaded / Multi-core programming. Was thinking of using `concurrent.futures`
